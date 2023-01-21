@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    margin: 0 auto;
+}
+/* _________________common css End Here___________ */
+nav ul li a{
+    font-family: 'Roboto', sans-serif;
+}
+.banner-contain h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.banner-contain p{
+    font-family: 'Roboto', cursive;
+}
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */
+/* _________________common css End Here___________ */

@@ -5,20 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Fashion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/script.css">
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                primary: '#3C3C3C',
+                secondary:'#FABE4C',
+                heading:'#363958',
+                paracolor:'#3E3E3E',
               }
             }
           }
         }
       </script>
+      <!-- fonts -->
 </head>
 <body>
-   
+    <!-- Navbar part start Here -->
+   <nav>
+  <div class="container mx-auto">
+    <div class="nav-wrapper flex">
+        <div class="logo">
+            <a href="#"><img src="images/icons/Group 33072.png" alt="Logo" class="w-1/4"></a>
+        </div>
+        <div class="menu">
+            <ul class="flex">
+                <li class="px-5"><a href="#" class="text-primary capitalize font-normal text-base">Home</a></li>
+                <li class="px-5"><a href="#"class="text-primary capitalize font-normal text-base">product</a></li>
+                <li class="px-5"><a href="#"class="text-primary capitalize font-normal text-base">about us</a></li>
+                <li class="px-5"><a href="#"class="text-primary capitalize font-normal text-base">contact us</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+   </nav>
+   <!-- Navbar part End Here -->
+   <!-- Banner part start Here -->
+   <section id="Banner">
+    <div class="container">
+        <div class="banner-wrapper">
+            <div class="banner-contain">
+                <h1 class="text-secondary text-7xl font-normal ">Be the Penguins <br> <span class="text-heading text-7xl">of Winter</span></h1>
+                <p class="text-paracolor text-base font-normal ">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                <a href="#">BUY NOW</a>
+            </div>
+        </div>
+    </div>
+
+   </section>
+   <!-- Banner part End Here -->
 </body>
 </html>
